@@ -177,64 +177,64 @@ Param (
                     switch ($PrID)  {
                         274 { #Orientation
                         Switch ([int]($BProp.Value)) {
-                            1 { $value = 'Horizontal (normal)’ ; break }
-                            2 { $value = 'Mirror horizontal’ ; break }
-                            3 { $value = 'Rotate 180’ ; break }
-                            4 { $value = 'Mirror vertical’ ; break }
-                            5 { $value = 'Mirror horizontal and rotate 270 CW’ ; break }
-                            6 { $value = 'Rotate 90 CW’ ; break }
-                            7 { $value = 'Mirror horizontal and rotate 90 CW’ ; break }
-                            8 { $value = 'Rotate 270 CW’ ; break }
+                            1 { $value = 'Horizontal (normal)' ; break }
+                            2 { $value = 'Mirror horizontal' ; break }
+                            3 { $value = 'Rotate 180' ; break }
+                            4 { $value = 'Mirror vertical' ; break }
+                            5 { $value = 'Mirror horizontal and rotate 270 CW' ; break }
+                            6 { $value = 'Rotate 90 CW' ; break }
+                            7 { $value = 'Mirror horizontal and rotate 90 CW' ; break }
+                            8 { $value = 'Rotate 270 CW' ; break }
                             }
                         }
                         34850 { #Exposure Program
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Not Defined’ ; break }
-                            1 { $value = 'Manual’ ; break }
-                            2 { $value = 'Program AE’ ; break }
-                            3 { $value = 'Aperture-priority AE’ ; break }
-                            4 { $value = 'Shutter speed priority AE’ ; break }
+                            0 { $value = 'Not Defined' ; break }
+                            1 { $value = 'Manual' ; break }
+                            2 { $value = 'Program AE' ; break }
+                            3 { $value = 'Aperture-priority AE' ; break }
+                            4 { $value = 'Shutter speed priority AE' ; break }
                             5 { $value = 'Creative (Slow speed) ' ; break }
-                            6 { $value = 'Action (High speed)’ ; break }
-                            7 { $value = 'Portrait’ ; break }
-                            8 { $value = 'Landscape’ ; break }
-                            9 { $value = 'Bulb’ ; break }
+                            6 { $value = 'Action (High speed)' ; break }
+                            7 { $value = 'Portrait' ; break }
+                            8 { $value = 'Landscape' ; break }
+                            9 { $value = 'Bulb' ; break }
                             }
                         }
                         37383 { # Metering Mode
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Unknown’ ; break }
-                            1 { $value = 'Average’ ; break }
-                            2 { $value = 'Center-weighted average’ ; break }
-                            3 { $value = 'Spot’ ; break }
-                            4 { $value = 'Multi-spot’ ; break }
-                            5 { $value = 'Multi-segment’ ; break }
-                            6 { $value = 'Partial’ ; break }
-                            255 { $value = 'Other’ ; break }
+                            0 { $value = 'Unknown' ; break }
+                            1 { $value = 'Average' ; break }
+                            2 { $value = 'Center-weighted average' ; break }
+                            3 { $value = 'Spot' ; break }
+                            4 { $value = 'Multi-spot' ; break }
+                            5 { $value = 'Multi-segment' ; break }
+                            6 { $value = 'Partial' ; break }
+                            255 { $value = 'Other' ; break }
                             }
                         }
                         37384 { # Light Source
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Auto’ ; break }
-                            1 { $value = 'Daylight’ ; break }
-                            2 { $value = 'Fluorescent’ ; break }
-                            3 { $value = 'Tungsten’ ; break }
-                            4 { $value = 'Flash’ ; break }
-                            9 { $value = 'Fine Weather’ ; break }
-                            10 { $value = 'Cloudy Weather’ ; break }
-                            11 { $value = 'Shade’ ; break }
-                            12 { $value = 'Daylight Fluorescent’ ; break }
-                            13 { $value = 'Day White Fluorescent’ ; break }
-                            14 { $value = 'Cool White Fluorescent’ ; break }
-                            15 { $value = 'White Fluorescent’ ; break }
-                            17 { $value = 'Standard Light A’ ; break }
-                            18 { $value = 'Standard Light B’ ; break }
-                            19 { $value = 'Standard Light C’ ; break }
-                            20 { $value = 'D55’ ; break }
-                            21 { $value = 'D65’ ; break }
-                            22 { $value = 'D75’ ; break }
-                            23 { $value = 'D50’ ; break }
-                            24 { $value = 'ISO Studio Tungsten’} 
+                            0 { $value = 'Auto' ; break }
+                            1 { $value = 'Daylight' ; break }
+                            2 { $value = 'Fluorescent' ; break }
+                            3 { $value = 'Tungsten' ; break }
+                            4 { $value = 'Flash' ; break }
+                            9 { $value = 'Fine Weather' ; break }
+                            10 { $value = 'Cloudy Weather' ; break }
+                            11 { $value = 'Shade' ; break }
+                            12 { $value = 'Daylight Fluorescent' ; break }
+                            13 { $value = 'Day White Fluorescent' ; break }
+                            14 { $value = 'Cool White Fluorescent' ; break }
+                            15 { $value = 'White Fluorescent' ; break }
+                            17 { $value = 'Standard Light A' ; break }
+                            18 { $value = 'Standard Light B' ; break }
+                            19 { $value = 'Standard Light C' ; break }
+                            20 { $value = 'D55' ; break }
+                            21 { $value = 'D65' ; break }
+                            22 { $value = 'D75' ; break }
+                            23 { $value = 'D50' ; break }
+                            24 { $value = 'ISO Studio Tungsten'} 
                             }
                         }
                         37385 { # Flash
@@ -270,8 +270,8 @@ Param (
                     }
                         40961 { # Color Space
                         Switch ([int]($BProp.Value)) {
-                            1 { $value = 'sRGB’ ; break }
-                            2 { $value = 'Adobe RGB’ ; break }
+                            1 { $value = 'sRGB' ; break }
+                            2 { $value = 'Adobe RGB' ; break }
                             }
                         }
                         41495{ # Sensing Method
@@ -287,9 +287,9 @@ Param (
                         }
                         41728 { #File Source
                         Switch ([int]($BProp.Value)) {
-                            1 { $value = 'Film Scanner’ ; break }
-                            2 { $value = 'Reflection Print Scanner’ ; break }
-                            3 { $value = 'Digital Camera’ ; break }
+                            1 { $value = 'Film Scanner' ; break }
+                            2 { $value = 'Reflection Print Scanner' ; break }
+                            3 { $value = 'Digital Camera' ; break }
                             }
                         }
                         41985 { # Custom Rendered
@@ -304,23 +304,23 @@ Param (
                         } 
                         41986 { #Exposure mode
     	                 Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Auto’ ; break }
-                            1 { $value = 'Manual’ ; break }
-                            2 { $value = 'Auto bracket’ ; break }
+                            0 { $value = 'Auto' ; break }
+                            1 { $value = 'Manual' ; break }
+                            2 { $value = 'Auto bracket' ; break }
                             }
                         }
                         41987 { # white Balance
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Auto’ ; break }
-                            1 { $value = 'manual’ ; break }
+                            0 { $value = 'Auto' ; break }
+                            1 { $value = 'manual' ; break }
                             }
                         }
                         41990 { # Scene Capture Mode
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Standard’ ; break }
+                            0 { $value = 'Standard' ; break }
                             1 { $value = 'Landscape' ; break }
-                            2 { $value = 'Portrait’ ; break }
-                            3 { $value = 'Night’ ; break }
+                            2 { $value = 'Portrait' ; break }
+                            3 { $value = 'Night' ; break }
                             }
                     }
                         41991 { #Gani Control
@@ -334,31 +334,31 @@ Param (
                         }
                         41992 { #Contrast
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Normal’ ; break }
-                            1 { $value = 'Low’ ; break }
-                            2 { $value = 'High’ ; break }
+                            0 { $value = 'Normal' ; break }
+                            1 { $value = 'Low' ; break }
+                            2 { $value = 'High' ; break }
                            }
                         }
                         41993 { #Saturation
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Normal’ ; break }
-                            1 { $value = 'Low’ ; break }
-                            2 { $value = 'High’ ; break }
+                            0 { $value = 'Normal' ; break }
+                            1 { $value = 'Low' ; break }
+                            2 { $value = 'High' ; break }
                             }
                         }
                         41994 { #Sharpness
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Normal’ ; break }
-                            1 { $value = 'Soft’ ; break }
-                            2 { $value = 'Hard’ ; break }
+                            0 { $value = 'Normal' ; break }
+                            1 { $value = 'Soft' ; break }
+                            2 { $value = 'Hard' ; break }
                             }
                         }
                         41996 { #subject Range
 	                     Switch ([int]($BProp.Value)) {
-                            0 { $value = 'Unknown’ ; break }
-                            1 { $value = 'Macro’ ; break }
-                            2 { $value = 'Close’ ; break }
-                            3 { $value = 'Distant’ ; break }
+                            0 { $value = 'Unknown' ; break }
+                            1 { $value = 'Macro' ; break }
+                            2 { $value = 'Close' ; break }
+                            3 { $value = 'Distant' ; break }
                         }
                     }
                     } #end outer switch
